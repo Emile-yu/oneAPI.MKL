@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="mkl.cpp.cpp" />
+    <ClCompile Include="OneMKLFactory.cpp">
+      <Filter>mkl</Filter>
+    </ClCompile>
+    <ClCompile Include="OperationBase.cpp">
+      <Filter>mkl\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CBLASNative.cpp">
+      <Filter>mkl\Operation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mkl">
+      <UniqueIdentifier>{9562e217-f0a1-4214-84b0-bd5e81d8f203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mkl\Base">
+      <UniqueIdentifier>{e9c2f2f7-b881-4769-bd52-3aa876703e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mkl\Operation">
+      <UniqueIdentifier>{654012ce-38d9-4c53-a1b6-7250bfc360be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OneMKLFactory.h">
+      <Filter>mkl</Filter>
+    </ClInclude>
+    <ClInclude Include="OperationBase.h">
+      <Filter>mkl\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CBLASNative.h">
+      <Filter>mkl\Operation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
